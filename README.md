@@ -12,7 +12,7 @@ yieldback
 `yieldback.scheduler` 사용
 --------------------------
 
-```node.js
+```node
 function *Y() {
 	// 지정된 숫자만큼 실행을 유예한다.
 	yield 123;
@@ -82,7 +82,7 @@ yieldback.scheduler( Y() );
 콜백 대용
 ----------
 
-```node.js
+```node
 class MyEmitter extends EventEmitter {
 	// some code
 }
